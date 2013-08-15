@@ -1,0 +1,18 @@
+{
+  "name": "chrx example",
+  "version": "0.0.0",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "browser_action": {
+     "default_title": "Alert the URL!"
+  },
+  "permissions": [
+    "http://*/*",
+    "https://*/*",
+    "tabs"
+  ]
+}

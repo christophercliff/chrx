@@ -1,0 +1,13 @@
+{
+  "name": "basic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "grunt watchify:background:keepalive & grunt watchify:content:keepalive"
+  },
+  "devDependencies": {
+    "grunt-browserify": "~1.2.2",
+    "grunt": "~0.4.1",
+    "grunt-watchify": "~0.1.0"
+  }
+}
