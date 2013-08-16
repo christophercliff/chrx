@@ -2,9 +2,20 @@
   "name": "chrx",
   "version": "0.0.1",
   "description": "CommonJS modules for Chrome Extensions Developers",
+   "keywords": [
+    "google chrome",
+    "chrome extensions",
+    "crx"
+  ],
   "main": "index.js",
   "scripts": {},
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/christophercliff/chrx"
+  },
+  "bugs": {
+    "url": "https://github.com/christophercliff/chrx/issues"
+  },
   "author": "Christopher Cliff <ctcliff@gmail.com>",
   "license": "MIT",
   "dependencies": {
