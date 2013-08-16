@@ -2,6 +2,12 @@
 
 __chrx__ is a collection of CommonJS modules for developing Chrome Extensions. The [`chrome.*` APIs](http://developer.chrome.com/extensions/api_index.html) provided in Chrome are powerful, but their complexity can make simple tasks rather difficult. This project is an attempt to collect some common abstractions and distribute them via [`npm`](https://npmjs.org/).
 
+## Installation
+
+```
+$ npm install chrx
+```
+
 ## API
 
 ## [`tabs`](#tabs-1)
