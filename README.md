@@ -1,18 +1,18 @@
 # chrx
 
-__`chrx`__ is a collection of CommonJS modules for developing Chrome Extensions. The [`chrome.*` APIs](http://developer.chrome.com/extensions/api_index.html) provided in Chrome are powerful, but their complexity can make simple tasks rather difficult. This project is an attempt to collect some common abstractions and distribute them via [`npm`](https://npmjs.org/).
+__chrx__ is a collection of CommonJS modules for developing Chrome Extensions. The [`chrome.*` APIs](http://developer.chrome.com/extensions/api_index.html) provided in Chrome are powerful, but their complexity can make simple tasks rather difficult. This project is an attempt to collect some common abstractions and distribute them via [`npm`](https://npmjs.org/).
 
 ## API
 
-## [`tabs`]()
+## [`tabs`](#tabs-1)
 
-- [`getActive()`](#)
-- [`executeScripts()`](#)
-- [`executeScriptsInActive()`](#)
+- [`getActive()`](#getactiveoptions-callback)
+- [`executeScripts()`](#executescriptsoptions-callback)
+- [`executeScriptsInActive()`](#executescriptsinactiveoptions-callback)
 
-## [`window`]()
+## [`window`](https://github.com/christophercliff/chrx#window-1)
 
-- [`getActive()`](#)
+- [`getActive()`](#getactivecallback)
 
 ## `tabs`
 
@@ -59,10 +59,6 @@ chrx.tabs.executeScriptsInActive({
 
 - `scripts` (required)
 - `runAt`
-
-## `window`
-
-- [`getActive()`](#)
 
 ### `getActive([callback])`
 
