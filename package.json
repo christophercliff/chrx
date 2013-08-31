@@ -8,7 +8,9 @@
     "crx"
   ],
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "say sorry"
+  },
   "repository": {
     "type": "git",
     "url": "http://github.com/christophercliff/chrx"
