@@ -1,7 +1,7 @@
 {
   "name": "chrx",
   "version": "0.0.2",
-  "description": "CommonJS modules for Chrome Extensions Developers",
+  "description": "CommonJS modules for developing Chrome Extensions",
   "keywords": [
     "google chrome",
     "chrome extensions",
