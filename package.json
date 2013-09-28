@@ -24,7 +24,7 @@
     "underscore": "~1.5.1",
     "async": "~0.2.9",
     "jquery-browserify": "~1.8.1",
-    "process": "~0.5.1"
+    "own": "0.0.1"
   },
   "devDependencies": {
     "grunt-browserify": "~1.2.2"
